@@ -1,7 +1,5 @@
 package com.quiz.lib;
 
-import java.util.Iterator;
-
 /**
  * Created by lindoncamaj on 2/8/18.
  */
@@ -11,7 +9,8 @@ public class MLinkedList{
     private int size;
 
     public MLinkedList() {
-        head = null;
+        this.head = null;
+        this.size = 0;
     }
 
     /**
